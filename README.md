@@ -29,6 +29,14 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 - [Meet Banyan](https://protocol.ai/blog/meet-banyan-reimagining-cloud-data-storage/)
 - [Pioneering the Future of Encrypted Data](https://www.protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/)
 
+### Rocket Software
+
+- [Rocket TE Web Administrator Guide](https://www3.rocketsoftware.com/bluezone/help/v101/en/bzweb/default.htm) — Enterprise administration and product documentation
+
+### IBM
+
+- [What’s New in Feature Pack 9](https://help.hcltechsw.com/domino/9.0.1/admin/admin/over_whats_new_in_fp9.html) — Product release and feature documentation
+
 ---
 
 ## Writing Focus Areas
