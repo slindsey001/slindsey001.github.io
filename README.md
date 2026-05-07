@@ -10,6 +10,27 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 
 ---
 
+## Selected Writing Samples
+
+### CData Software
+
+- [Introduction to MCP](https://cdn.cdata.com/help/FOK/mcp/pg_mcpintro.htm)
+- [Creating a Custom OAuth Application](https://cdn.cdata.com/help/BBK/ado/pg_oauthcustomappcreate.htm)
+- [Data Hub vs. Data Lake vs. Data Warehouse](https://www.cdata.com/blog/data-hub-vs-data-lake-vs-data-warehouse)
+
+### Coinbase
+
+- [Launch a Participate Cluster](https://help.coinbase.com/en/cloud/participate/launch-cluster)
+- [Manage your Participate Cluster](https://help.coinbase.com/en/cloud/participate/manage-cluster)
+- [NFT Royalties](https://help.coinbase.com/en/nft/creators/royalties-percentage)
+
+### Protocol Labs
+
+- [Meet Banyan](https://protocol.ai/blog/meet-banyan-reimagining-cloud-data-storage/)
+- [Pioneering the Future of Encrypted Data](https://www.protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/)
+
+---
+
 ## Writing Focus Areas
 
 - Developer Documentation
