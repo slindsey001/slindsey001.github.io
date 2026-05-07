@@ -7,6 +7,7 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 ## Featured Projects
 
 - [AI-Assisted Documentation Review Agent](./ai-documentation-agent)
+- [MCP Server & Developer Tooling Documentation](./mcp-documentation)
 
 ---
 
