@@ -13,30 +13,46 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 
 ## Selected Writing Samples
 
-### CData Software
+<h3>
+  <img src="./assets/images/cdata.png" width="28" style="vertical-align:middle; margin-right:10px;">
+  CData Software
+</h3>
 
-- [Introduction to MCP](https://cdn.cdata.com/help/FOK/mcp/pg_mcpintro.htm)
-- [Creating a Custom OAuth Application](https://cdn.cdata.com/help/BBK/ado/pg_oauthcustomappcreate.htm)
-- [Data Hub vs. Data Lake vs. Data Warehouse](https://www.cdata.com/blog/data-hub-vs-data-lake-vs-data-warehouse)
+- [Introduction to MCP](https://cdn.cdata.com/help/FOK/mcp/pg_mcpintro.htm) — Developer onboarding and MCP workflow documentation
+- [Creating a Custom OAuth Application](https://cdn.cdata.com/help/BBK/ado/pg_oauthcustomappcreate.htm) — OAuth configuration and authentication setup documentation
+- [Data Hub vs. Data Lake vs. Data Warehouse](https://www.cdata.com/blog/data-hub-vs-data-lake-vs-data-warehouse) — Technical comparison article for enterprise data systems
 
-### Coinbase
+<h3>
+  <img src="./assets/images/coinbase.png" width="28" style="vertical-align:middle; margin-right:10px;">
+  Coinbase
+</h3>
 
-- [Launch a Participate Cluster](https://help.coinbase.com/en/cloud/participate/launch-cluster)
-- [Manage your Participate Cluster](https://help.coinbase.com/en/cloud/participate/manage-cluster)
-- [NFT Royalties](https://help.coinbase.com/en/nft/creators/royalties-percentage)
+- [Launch a Participate Cluster](https://help.coinbase.com/en/cloud/participate/launch-cluster) — Cloud infrastructure onboarding documentation
+- [Manage your Participate Cluster](https://help.coinbase.com/en/cloud/participate/manage-cluster) — Developer workflow and operational guidance
+- [NFT Royalties](https://help.coinbase.com/en/nft/creators/royalties-percentage) — NFT platform documentation for creators
 
-### Protocol Labs
+<h3>
+  <img src="./assets/images/protocol.png" width="28" style="vertical-align:middle; margin-right:10px;">
+  Protocol Labs
+</h3>
 
-- [Meet Banyan](https://protocol.ai/blog/meet-banyan-reimagining-cloud-data-storage/)
-- [Pioneering the Future of Encrypted Data](https://www.protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/)
+- [Meet Banyan](https://protocol.ai/blog/meet-banyan-reimagining-cloud-data-storage/) — Technical ecosystem and infrastructure storytelling
+- [Pioneering the Future of Encrypted Data](https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/) — Emerging technology and encryption-focused content
 
-### Rocket Software
+<h3>
+  <img src="./assets/images/rocket.png" width="28" style="vertical-align:middle; margin-right:10px;">
+  Rocket Software
+</h3>
 
 - [Rocket TE Web Administrator Guide](https://www3.rocketsoftware.com/bluezone/help/v101/en/bzweb/default.htm) — Enterprise administration and product documentation
 
-### IBM
+<h3>
+  <img src="./assets/images/ibm.png" width="28" style="vertical-align:middle; margin-right:10px;">
+  IBM
+</h3>
 
 - [What’s New in Feature Pack 9](https://help.hcltechsw.com/domino/9.0.1/admin/admin/over_whats_new_in_fp9.html) — Product release and feature documentation
+- [Disabling Inline View Indexing](https://help.hcltechsw.com/domino/9.0.1/admin/admin/admn_inline_index_disabling.html) — Administrative configuration documentation
 
 ---
 
@@ -47,6 +63,7 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 - Docs-as-Code Systems
 - API & Integration Documentation
 - Technical Content Operations
+- Developer Onboarding & Configuration Workflows
 
 ---
 
