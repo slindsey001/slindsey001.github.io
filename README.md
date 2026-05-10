@@ -14,7 +14,7 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 ## Selected Writing Samples
 
 <h3>
-  <img src="./assets/images/cdata.png" width="48" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
+  <img src="./assets/images/cdata.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
   CData Software
 </h3>
 
@@ -23,7 +23,7 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 - [Data Hub vs. Data Lake vs. Data Warehouse](https://www.cdata.com/blog/data-hub-vs-data-lake-vs-data-warehouse) — Technical comparison article for enterprise data systems
 
 <h3>
-  <img src="./assets/images/coinbase.png" width="48" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
+  <img src="./assets/images/coinbase.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
   Coinbase
 </h3>
 
@@ -32,7 +32,7 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 - [NFT Royalties](https://help.coinbase.com/en/nft/creators/royalties-percentage) — NFT platform documentation for creators
 
 <h3>
-  <img src="./assets/images/protocol_labs.png" width="48" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
+  <img src="./assets/images/protocol_labs.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
   Protocol Labs
 </h3>
 
@@ -41,14 +41,14 @@ Technical writing portfolio focused on developer experience, AI-assisted workflo
 - [Pioneering the Future of Encrypted Data](https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/) — Emerging technology and encryption-focused content
 
 <h3>
-  <img src="./assets/images/rocket_software.png" width="48" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
+  <img src="./assets/images/rocket_software.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
   Rocket Software
 </h3>
 
 - [Rocket TE Web Administrator Guide](https://www3.rocketsoftware.com/bluezone/help/v101/en/bzweb/default.htm) — Enterprise administration and product documentation
 
 <h3>
-  <img src="./assets/images/ibm.png" width="48" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
+  <img src="./assets/images/ibm.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
   IBM
 </h3>
 
