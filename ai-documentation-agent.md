@@ -35,7 +35,7 @@ The project focused on improving documentation consistency, streamlining technic
 
 ## Example Review Output
 
-Example of structured AI-assisted review output used to identify outdated endpoints, missing prerequisites, schema drift, configuration issues, and documentation inconsistencies during technical review workflows.
+Example of review output used to identify outdated endpoints, missing prerequisites, schema drift, configuration issues, and documentation inconsistencies during technical review workflows.
 
 ![AI Documentation Review Output](./assets/images/doc_review.png)
 
