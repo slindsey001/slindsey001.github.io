@@ -59,24 +59,6 @@ This work focused on simplifying configuration, improving onboarding clarity, an
 
 ---
 
-## Example Snippet
-
-```json
-{
-  "mcpServers": {
-    "MyDataSource": {
-      "command": "java",
-      "args": [
-        "-jar",
-        "cdata.mcp.example.jar"
-      ]
-    }
-  }
-}
-```
-
----
-
 ## Outcome
 
 This project supported scalable onboarding and integration workflows for AI-assisted developer tooling, with a focus on improving developer experience, reducing configuration complexity, and maintaining consistent technical documentation practices across multiple environments.
