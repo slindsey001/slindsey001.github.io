@@ -66,4 +66,4 @@ Technical Writer with experience documenting enterprise platforms, developer too
 - Docs-as-Code Systems
 - API & Integration Documentation
 - Technical Content Operations
-- Developer Onboarding & Configuration Workflows
+- Onboarding & Configuration Workflows
