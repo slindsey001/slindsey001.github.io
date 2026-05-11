@@ -31,7 +31,7 @@ Technical Writer with experience documenting enterprise platforms, developer too
 
 - [Launch a Participate Cluster](https://help.coinbase.com/en/cloud/participate/launch-cluster) — Cloud infrastructure onboarding documentation
 - [Manage your Participate Cluster](https://help.coinbase.com/en/cloud/participate/manage-cluster) — Developer workflow and operational guidance
-- [NFT Royalties](https://help.coinbase.com/en/nft/creators/royalties-percentage) — NFT platform documentation for creators
+- [Wallet Quick Start](https://docs.cdp.coinbase.com/wallets/quickstart/user-auth) — Developer onboarding for embedded wallets
 
 <h3>
   <img src="./assets/images/protocol_labs.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
@@ -39,7 +39,7 @@ Technical Writer with experience documenting enterprise platforms, developer too
 </h3>
 
 
-- [Meet Banyan](https://protocol.ai/blog/meet-banyan-reimagining-cloud-data-storage/) — Technical ecosystem and infrastructure storytelling
+- [Meet Zama](https://www.protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/) — Technical ecosystem and infrastructure storytelling
 - [Pioneering the Future of Encrypted Data](https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/) — Emerging technology and encryption-focused content
 
 <h3>
