@@ -7,20 +7,19 @@ title: AI Tooling & MCP Server Documentation
 
 ## Overview
 
-Created developer-focused onboarding and integration documentation for MCP server workflows across multiple AI-assisted development environments.
+Created developer-focused onboarding and integration documentation for MCP server workflows across multiple development environments.
 
-This work focused on simplifying configuration, improving onboarding clarity, and helping developers integrate AI tooling into docs-as-code and developer workflows with minimal friction.
+This work focused on simplifying configuration, improving onboarding clarity, and helping developers integrate AI tooling into developer workflows with minimal friction.
 
 ---
 
 ## Goals
 
-- Improve developer onboarding for AI tooling integrations
+- Improve developer onboarding
 - Simplify MCP server configuration workflows
 - Standardize setup instructions across development environments
-- Reduce friction in AI-assisted developer workflows
 - Create scalable and maintainable integration documentation
-
+- 
 ---
 
 ## Responsibilities
