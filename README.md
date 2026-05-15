@@ -39,7 +39,7 @@ Technical Writer with experience documenting enterprise platforms, developer too
 </h3>
 
 
-- [Meet 3BoxLabs](https://www.protocol.ai/blog/meet-3box-labs-building-a-web-of-rust-with-data/) - Technical ecosystem and infrastructure storytelling
+- [Building a Web of Trust with Data](https://www.protocol.ai/blog/meet-3box-labs-building-a-web-of-rust-with-data/) - Technical ecosystem and infrastructure storytelling
 - [Pioneering the Future of Encrypted Data](https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/) - Emerging technology and encryption-focused content
 
 <h3>
