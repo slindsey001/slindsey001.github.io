@@ -61,4 +61,4 @@ Technical Writer with experience documenting enterprise platforms, developer too
 
 ## Personal Technical Projects
 
-- [High-Performance AI & Gaming PC Build](./pc-build)
+- [High-Performance Gaming PC Build](./pc-build)
