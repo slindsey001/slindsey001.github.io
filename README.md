@@ -59,11 +59,6 @@ Technical Writer with experience documenting enterprise platforms, developer too
 
 ---
 
-## Writing Focus Areas
+## Personal Technical Projects
 
-- Developer Documentation
-- AI-Assisted Workflows
-- Docs-as-Code Systems
-- API & Integration Documentation
-- Technical Content Operations
-- Onboarding & Configuration Workflows
+- [High-Performance AI & Gaming PC Build](./pc-build)
