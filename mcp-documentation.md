@@ -19,7 +19,6 @@ This work focused on simplifying configuration, improving onboarding clarity, an
 - Simplify MCP server configuration workflows
 - Standardize setup instructions across development environments
 - Create scalable and maintainable integration documentation
-- 
 ---
 
 ## Responsibilities
