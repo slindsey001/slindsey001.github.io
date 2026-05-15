@@ -9,7 +9,9 @@ title: High-Performance AI & Gaming PC Build
 
 Designed and assembled a custom high-performance workstation focused on gaming, AI-assisted workflows, and GPU-intensive applications.
 
-![Custom AI & Gaming Workstation](./assets/images/pc_build.png)
+<p align="center">
+  <img src="./assets/images/pc_build.png" width="700" style="border-radius:8px;">
+</p>
 
 The project involved component research, hardware compatibility planning, thermal management considerations, storage optimization, and long-term upgrade flexibility.
 
