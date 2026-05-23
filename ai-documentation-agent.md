@@ -20,7 +20,7 @@ The project focused on improving documentation consistency, streamlining technic
 - Incorporated workflow safeguards and approval flows
 - Designed review patterns using Git-based changes
 - Focused on scalable documentation processes and maintainability
-- 
+
 ---
 
 ## Workflow Design
@@ -50,18 +50,6 @@ Example of structured review output used during a technical review:
 <p align="center">
   <img src="./assets/images/doc_review.png" width="850" style="border-radius:8px;">
 </p>
-
----
-
-## Technologies & Concepts
-
-- Claude Agents & Skills
-- Markdown
-- Git
-- Docs-as-Code
-- AI-Assisted Review Systems
-- Technical Documentation Workflows
-- Prompt Design & Evaluation
 
 ---
 
