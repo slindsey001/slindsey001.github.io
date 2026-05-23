@@ -56,9 +56,3 @@ Technical Writer with experience documenting enterprise platforms, developer too
 
 - [What’s New in Feature Pack 9](https://help.hcltechsw.com/domino/9.0.1/admin/admin/over_whats_new_in_fp9.html) - Product release and feature documentation
 - [Disabling Inline View Indexing](https://help.hcltechsw.com/domino/9.0.1/admin/admin/admn_inline_index_disabling.html) - Administrative configuration documentation
-
----
-
-## Personal Technical Projects
-
-- [High-Performance Gaming PC Build](./pc-build)
