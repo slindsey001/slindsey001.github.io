@@ -1,9 +1,9 @@
 ---
 layout: default
-title: AI Tooling & MCP Server Documentation
+title: MCP Server Documentation
 ---
 
-# AI Tooling & MCP Server Documentation
+# MCP Server Documentation
 
 ## Overview
 
