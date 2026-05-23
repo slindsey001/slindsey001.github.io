@@ -25,8 +25,6 @@ This work focused on simplifying configuration, improving onboarding clarity, an
 
 ## Lessons Learned
 
-## Lessons Learned
-
 One of the biggest takeaways from this work was how quickly small differences in paths, settings, and configuration scopes across IDEs and environments could create confusion during setup and onboarding. The project reinforced the importance of keeping onboarding documentation practical, consistent, easy to validate, and closely aligned with real developer workflows as AI tooling and IDE integrations continue to evolve.
 
 ---
