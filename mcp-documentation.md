@@ -9,16 +9,8 @@ title: AI Tooling & MCP Server Documentation
 
 Created developer-focused onboarding and integration documentation for MCP server workflows across multiple development environments.
 
-This work focused on simplifying configuration, improving onboarding clarity, and helping developers integrate AI tooling into developer workflows with minimal friction.
+This work focused on simplifying configuration, improving onboarding clarity, and helping developers integrate AI tooling into their workflows with minimal friction.
 
----
-
-## Goals
-
-- Improve developer onboarding
-- Simplify MCP server configuration workflows
-- Standardize setup instructions across development environments
-- Create scalable and maintainable integration documentation
 ---
 
 ## Responsibilities
@@ -31,32 +23,14 @@ This work focused on simplifying configuration, improving onboarding clarity, an
 
 ---
 
-## Technologies & Concepts
+## Lessons Learned
 
-- MCP Servers
-- Claude Code
-- Cursor IDE
-- GitHub Copilot
-- Gemini Code Assist
-- Git
-- Markdown
-- Docs-as-Code
-- Developer Tooling
-- AI-Assisted Workflows
+## Lessons Learned
 
----
-
-## Documentation Areas
-
-- IDE integration setup
-- Configuration file workflows
-- Authentication and environment configuration
-- Developer onboarding
-- Troubleshooting guidance
-- AI-assisted development workflows
+One of the biggest takeaways from this work was how quickly small differences in paths, settings, and configuration scopes across IDEs and environments could create confusion during setup and onboarding. The project reinforced the importance of keeping onboarding documentation practical, consistent, easy to validate, and closely aligned with real developer workflows as AI tooling and IDE integrations continue to evolve.
 
 ---
 
 ## Outcome
 
-This project supported scalable onboarding and integration workflows for AI-assisted developer tooling, with a focus on improving developer experience, reducing configuration complexity, and maintaining consistent technical documentation practices across multiple environments.
+This work helped establish more consistent and repeatable onboarding patterns for MCP server integrations across development environments. 
