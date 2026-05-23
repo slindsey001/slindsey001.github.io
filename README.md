@@ -31,7 +31,7 @@ Technical Writer with experience documenting enterprise platforms, developer too
 
 - [Launch a Participate Cluster](https://help.coinbase.com/en/cloud/participate/launch-cluster) - Cloud infrastructure onboarding documentation
 - [Manage your Participate Cluster](https://help.coinbase.com/en/cloud/participate/manage-cluster) - Developer workflow and operational guidance
-- [Wallet Quick Start](https://docs.cdp.coinbase.com/wallets/quickstart/user-auth) - Developer onboarding for embedded wallets
+- [Demo App Tutorial](https://docs.cdp.coinbase.com/wallets/demos/demo-app-tutorial) - End-to-end wallet integration and onboarding tutorial
 
 <h3>
   <img src="./assets/images/protocol_labs.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
