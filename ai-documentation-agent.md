@@ -7,30 +7,20 @@ title: AI-Assisted Documentation Review Agent
 
 ## Overview
 
-Designed a Claude-based documentation review agent to support scalable technical writing workflows.
+Designed a Claude-based documentation review agent to support scalable technical writing workflows within a docs-as-code environment.
 
-The project focused on improving documentation consistency, streamlining technical review workflows, and exploring how AI-assisted systems can enhance large-scale documentation operations.
-
----
-
-## Goals
-
-- Improve documentation consistency
-- Streamline technical review workflows
-- Reduce manual review overhead
-- Integrate Git-aware workflow logic
-- Support scalable documentation operations
+The project focused on improving documentation consistency, streamlining technical review workflows, reducing manual review overhead, and exploring how AI-assisted systems can support large-scale documentation operations.
 
 ---
 
 ## Responsibilities
 
 - Defined agent behavior and workflow review logic
-- Structured markdown-based instruction systems
+- Structured markdown-based instructions
 - Incorporated workflow safeguards and approval flows
-- Designed scoped review patterns using Git-based changes
+- Designed review patterns using Git-based changes
 - Focused on scalable documentation processes and maintainability
-
+- 
 ---
 
 ## Workflow Design
@@ -49,13 +39,13 @@ Review patterns included:
 
 ## Example Prompt Pattern
 
-> Review the modified documentation files for outdated API references, missing prerequisites, authentication inconsistencies, schema drift, and unclear onboarding steps. Focus only on files changed in the current Git diff and prioritize actionable findings.
+> Review the modified documentation files for outdated API references, missing prerequisites, authentication inconsistencies, schema drift, and unclear steps. Focus only on files changed in the current Git diff and prioritize actionable findings.
 
 ---
 
 ## Example Review Output
 
-Example of structured review output used to identify outdated endpoints, missing prerequisites, schema drift, configuration issues, and documentation inconsistencies during technical review workflows.
+Example of structured review output used during a technical review:
 
 <p align="center">
   <img src="./assets/images/doc_review.png" width="850" style="border-radius:8px;">
@@ -75,17 +65,6 @@ Example of structured review output used to identify outdated endpoints, missing
 
 ---
 
-## Key Focus Areas
-
-- AI-assisted documentation workflows
-- Prompt design and review iteration
-- Git-aware workflow automation
-- Developer onboarding documentation
-- Technical review systems
-- Documentation consistency and scalability
-
----
-
 ## Lessons Learned
 
 One challenge was making sure the review output stayed useful without becoming overly verbose or repetitive. A large part of the prompt iteration process focused on improving clarity, consistency, and the overall usefulness of the feedback for technical writers.
@@ -94,4 +73,4 @@ One challenge was making sure the review output stayed useful without becoming o
 
 ## Outcome
 
-This project explored practical applications of AI-assisted workflows within technical documentation environments, with an emphasis on scalability, consistency, and developer-focused documentation operations. The resulting workflow concepts and review patterns were adopted across the documentation team to help streamline review processes, improve consistency, and reduce manual documentation overhead.
+This project explored practical applications of AI-assisted workflows for technical documentation with an emphasis on scalability and consistency. The resulting workflow concepts and review patterns were adopted across the documentation team to help streamline review processes, improve consistency, and reduce manual documentation overhead.
