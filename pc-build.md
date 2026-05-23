@@ -19,7 +19,7 @@ The project involved component research, hardware compatibility planning, therma
 
 ## Focus Areas
 
-- GPU performance considerations
+- GPU performance
 - Thermal and airflow planning
 - NVMe storage configuration
 - Memory optimization
@@ -47,10 +47,10 @@ The project involved component research, hardware compatibility planning, therma
 - Power optimization
 - Storage architecture
 - Performance tuning
-- Hardware compatibility validation
+- Hardware compatibility
 
 ---
 
 ## Outcome
 
-This project strengthened my understanding of modern hardware platforms, GPU-focused workflows, system optimization, and technical troubleshooting within high-performance computing environments.
+This project strengthened my understanding of modern hardware platforms, GPU-focused workflows, system optimization, and technical troubleshooting.
