@@ -9,7 +9,7 @@ title: MCP Server Documentation
 
 Created developer-focused onboarding and integration documentation for MCP server workflows across multiple development environments.
 
-This work focused on simplifying configuration, improving onboarding clarity, and helping developers integrate AI tooling into their workflows with minimal friction.
+This work focused on simplifying configuration, improving onboarding clarity, and helping developers integrate AI tooling into their workflows.
 
 ---
 
