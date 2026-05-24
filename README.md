@@ -13,7 +13,7 @@ Technical Writer with experience documenting enterprise platforms, developer too
 
 ---
 
-## Selected Writing Samples
+## Selected Writing Samples 
 
 <h3>
   <img src="./assets/images/cdata.png" width="58" style="vertical-align:middle; margin-right:10px; transform:translateY(4px);">
