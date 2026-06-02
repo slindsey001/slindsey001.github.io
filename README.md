@@ -9,6 +9,7 @@ Technical Writer with experience documenting enterprise platforms, developer too
 ## Featured Projects
 
 - [AI-Assisted Documentation Review Agent](./ai-documentation-agent)
+- [Documentation Dependency Resolver](./driver-documentation-dependency-resolver.md)
 - [MCP Server & Developer Tooling Documentation](./mcp-documentation)
 
 ---
