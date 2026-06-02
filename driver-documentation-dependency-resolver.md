@@ -95,4 +95,4 @@ The project also reinforced the importance of clearly communicating limitations.
 
 ## Outcome
 
-The project resulted in a working command-line resolver and searchable web application capable of tracing documentation dependencies across 307 drivers. The tool resolves approximately 97% of referenced shared files, transforming a manual repository-wide investigation into an instant lookup while supporting documentation impact analysis, dependency discovery, and identification of orphaned content.
+The project resulted in a working command-line resolver and searchable web application capable of tracing documentation dependencies across 307 drivers. The tool resolves approximately 98% of referenced shared files, transforming a manual repository-wide investigation into an instant lookup while supporting documentation impact analysis, dependency discovery, and identification of orphaned content.
