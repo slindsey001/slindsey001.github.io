@@ -45,9 +45,6 @@ The command-line tool allows users to quickly identify which drivers consume a s
 
 ```text
 python doc-deps.py AzureProps/AzureAccessKey.prp
-
-```text
-python doc-deps.py AzureProps/AzureAccessKey.prp
 ```
 
 ---
