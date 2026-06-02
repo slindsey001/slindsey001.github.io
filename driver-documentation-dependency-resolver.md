@@ -74,6 +74,14 @@ Via shared .map, marked-section gated (10):
 
 The web interface presents the same information through a searchable UI with color-coded dependency paths and one-click copying of provider lists.
 
+## Example Review Output
+
+Example of structured review output used during a technical review:
+
+<p align="center">
+  <img src="./assets/images/doc_resolver.png" width="850" style="border-radius:8px;">
+</p>
+
 ---
 
 ## Lessons Learned
