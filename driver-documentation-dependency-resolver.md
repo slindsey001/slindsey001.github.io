@@ -41,6 +41,11 @@ Key resolution patterns included:
 
 ## Example Usage
 
+The command-line tool allows users to quickly identify which drivers consume a shared documentation file. By providing the path to a shared file, the resolver traces dependency chains across the documentation system and returns all consuming drivers, along with how the dependency was reached.
+
+```text
+python doc-deps.py AzureProps/AzureAccessKey.prp
+
 ```text
 python doc-deps.py AzureProps/AzureAccessKey.prp
 ```
