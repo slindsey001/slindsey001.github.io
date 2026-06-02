@@ -11,7 +11,7 @@ Built a static analysis tool that maps documentation dependencies across a large
 
 In a catalog of more than 300 database drivers, documentation is assembled from shared content maintained in a central ProviderBase library. Because shared files are referenced through multiple layers of includes, entities, bundles, and conditional rules, the impact of changing a single file was often difficult to determine. This project focused on making those dependencies instantly visible to improve change confidence, reduce manual investigation, and identify where shared content is used throughout the documentation ecosystem.
 
-Developed during the CData Docs Team 2026 Hackathon.
+I developed this tool during the CData Docs Team 2026 Hackathon.
 
 ---
 
