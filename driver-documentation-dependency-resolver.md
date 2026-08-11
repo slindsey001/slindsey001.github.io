@@ -3,57 +3,194 @@ layout: default
 title: Driver Documentation Dependency Resolver
 ---
 
-# Driver Documentation Dependency Resolver
+<nav class="site-nav" aria-label="Primary navigation">
+  <a class="site-mark" href="./">SL</a>
+  <div class="site-nav-links">
+    <a href="./#work">Work</a>
+    <a href="./#experience">Experience</a>
+    <a href="./#writing">Writing</a>
+    <a href="./#about">About</a>
+    <a class="nav-resume" href="./assets/Shawn-Lindsey-Resume.pdf">Resume ↗</a>
+  </div>
+</nav>
 
-## Overview
+<div class="portfolio-shell case-study">
 
-Built a static analysis tool that maps documentation dependencies across a large docs-as-code system, answering a question that previously required slow, manual investigation: "Which drivers use this shared documentation file?"
+<section class="case-hero">
+  <a class="case-back" href="./#work">← Selected work</a>
 
-In a catalog of more than 300 database drivers, documentation is assembled from shared content maintained in a central ProviderBase library. Because shared files are referenced through multiple layers of includes, entities, bundles, and conditional rules, the impact of changing a single file was often difficult to determine. This project focused on making those dependencies instantly visible to improve change confidence, reduce manual investigation, and identify where shared content is used throughout the documentation ecosystem.
+  <p class="eyebrow">Documentation Infrastructure · 02</p>
 
-I developed this tool during the CData Docs Team 2026 Hackathon.
+  <h1>Documentation<br>Dependency<br>Resolver</h1>
 
----
+  <p class="case-deck">
+    A static analysis tool for tracing shared documentation dependencies
+    across more than 300 product documentation builds.
+  </p>
 
-## Responsibilities
+  <div class="case-meta">
+    <div>
+      <span class="meta-label">Role</span>
+      <strong>Technical Writer<br>Tool Designer</strong>
+    </div>
+    <div>
+      <span class="meta-label">Stack</span>
+      <strong>Python<br>HTML / JavaScript</strong>
+    </div>
+    <div>
+      <span class="meta-label">Focus</span>
+      <strong>Docs-as-Code<br>Impact Analysis</strong>
+    </div>
+  </div>
+</section>
 
-- Defined the dependency resolution model across the driver catalog
-- Identified and handled multiple documentation inclusion mechanisms, including shared bundles, chapter includes, inline entities, and conditional content
-- Validated tool output against ground-truth searches to identify and correct accuracy gaps
-- Designed both a command-line interface and searchable web interface
-- Documented known limitations and edge cases to improve transparency and trust in results
 
----
+<section class="case-section">
+  <p class="case-label">The problem</p>
 
-## How It Works
+  <div class="case-section-content">
+    <h2>One shared file can affect dozens of products.</h2>
 
-The tool resolves the full chain of references used to build each driver's documentation, beginning with driver-specific content and following references transitively into shared files, bundles, chapters, and entities. The resulting dependency graph is then inverted to show which drivers consume a given shared file.
+    <p class="case-lead">
+      CData documentation is assembled from shared content that can be reused
+      across a catalog of more than 300 database drivers.
+    </p>
 
-Key resolution patterns included:
+    <p>
+      Shared files are pulled into builds through multiple layers of includes,
+      entities, bundles, chapters, and conditional rules. That made a seemingly
+      simple question surprisingly difficult to answer:
+    </p>
 
-- Transitive dependency resolution across shared bundles, chapter includes, and inline entities
-- Authoritative file lookups using generated build indexes rather than naming conventions
-- Conditional content evaluation for edition-specific and build-specific documentation
-- Attribution tracking showing how each dependency was reached
-- Explicit labeling of unresolved content and build-generated edge cases
+    <div class="prompt-block">
+      <span class="prompt-label">Core question</span>
+      <p>Which drivers use this shared documentation file?</p>
+    </div>
 
----
+    <p>
+      Before this tool, answering that question often required repository-wide
+      searches and manual investigation. The project focused on making those
+      dependencies immediately visible so writers could understand the impact
+      of a change before making it.
+    </p>
+  </div>
+</section>
 
-## Example Usage
 
-The command-line tool allows users to quickly identify which drivers consume a shared documentation file. By providing the path to a shared file, the resolver traces dependency chains across the documentation system and returns all consuming drivers, along with how the dependency was reached.
+<section class="case-section">
+  <p class="case-label">The model</p>
 
-```text
-python doc-deps.py AzureProps/AzureAccessKey.prp
-```
+  <div class="case-section-content">
+    <h2>Resolve the build process, then invert it.</h2>
 
----
+    <p class="case-lead">
+      The documentation system already knows how to answer one direction:
+      what content is included in a given driver build.
+    </p>
 
-## Example Output
+    <p>
+      I modeled that assembly process across the driver catalog, followed each
+      reference transitively into shared content, and then inverted the result
+      to answer the question from the other direction.
+    </p>
 
-```text
-File:   ProviderBase/help/source/AzureProps/AzureAccessKey.prp
-Entity: &AZUREPROPSpAzureAccessKey;
+    <div class="case-principles">
+      <div>
+        <span>01</span>
+        <h3>Trace references</h3>
+        <p>
+          Follow shared bundles, chapter includes, inline entities, and other
+          references across the documentation tree.
+        </p>
+      </div>
+
+      <div>
+        <span>02</span>
+        <h3>Evaluate conditions</h3>
+        <p>
+          Respect edition-specific and build-specific conditional content
+          instead of treating every possible reference as active.
+        </p>
+      </div>
+
+      <div>
+        <span>03</span>
+        <h3>Invert the graph</h3>
+        <p>
+          Convert the resolved dependency model into a lookup that shows which
+          drivers consume any given shared file.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="case-section">
+  <p class="case-label">Resolution logic</p>
+
+  <div class="case-section-content">
+    <h2>Designed for the actual complexity of the documentation system.</h2>
+
+    <div class="case-check-grid">
+      <div>
+        <span>01</span>
+        <strong>Transitive resolution</strong>
+        <p>
+          Resolves dependencies across bundles, chapters, shared maps, and
+          inline entities.
+        </p>
+      </div>
+
+      <div>
+        <span>02</span>
+        <strong>Authoritative lookup</strong>
+        <p>
+          Uses generated build indexes rather than relying on file-name
+          conventions.
+        </p>
+      </div>
+
+      <div>
+        <span>03</span>
+        <strong>Conditional content</strong>
+        <p>
+          Evaluates edition-specific and build-specific inclusion rules.
+        </p>
+      </div>
+
+      <div>
+        <span>04</span>
+        <strong>Attribution</strong>
+        <p>
+          Tracks how each dependency was reached so results remain explainable.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="case-section">
+  <p class="case-label">CLI workflow</p>
+
+  <div class="case-section-content">
+    <h2>Turn a repository-wide investigation into one command.</h2>
+
+    <p>
+      The command-line tool accepts the path to a shared documentation file
+      and returns the drivers that consume it, along with how each dependency
+      was reached.
+    </p>
+
+    <div class="prompt-block">
+      <span class="prompt-label">Example command</span>
+      <p>python doc-deps.py AzureProps/AzureAccessKey.prp</p>
+    </div>
+
+    <div class="code-output">
+<pre>File:   ProviderBase/help/source/AzureProps/AzureAccessKey.prp
+Entity: &amp;AZUREPROPSpAzureAccessKey;
 Via:    mixed
 
 Direct body reference (3):
@@ -71,25 +208,101 @@ Via shared .map, marked-section gated (10):
   ProviderREST
   ProviderSASDataSets
   ProviderSASXpt
-  ProviderXML
-```
+  ProviderXML</pre>
+    </div>
+  </div>
+</section>
 
-The web interface presents the same information through a searchable UI with color-coded dependency paths and one-click copying of provider lists.
 
-<p align="center">
-  <img src="./assets/images/doc_resolver.png" style="border-radius:8px;">
-</p>
+<section class="case-visual-section">
+  <div class="case-visual-heading">
+    <p class="case-label">Web interface</p>
+    <p>Searchable dependency results with visual path attribution.</p>
+  </div>
 
----
+  <div class="case-large-visual case-large-visual--ui">
+    <img
+      src="./assets/images/doc_resolver.png"
+      alt="Searchable web interface for the Documentation Dependency Resolver">
+  </div>
+</section>
 
-## Lessons Learned
 
-One of the biggest challenges was accurately evaluating conditional content. Early versions of the resolver treated edition-specific conditions too broadly, which led to undercounted dependencies. Comparing results against real documentation searches helped uncover these gaps and improve the overall accuracy of the resolution model.
+<section class="case-section">
+  <p class="case-label">Validation</p>
 
-The project also reinforced the importance of clearly communicating limitations. Some documentation is assembled by the build process itself rather than through traceable references, so the tool explicitly identifies these cases instead of overstating accuracy.
+  <div class="case-section-content">
+    <h2>Accuracy mattered more than coverage claims.</h2>
 
----
+    <p class="case-lead">
+      One of the hardest parts of the project was correctly evaluating
+      conditional content.
+    </p>
 
-## Outcome
+    <p>
+      Early versions treated some edition-specific conditions too broadly,
+      which produced dependency gaps. I compared resolver output against
+      ground-truth repository searches to find those discrepancies and refine
+      the resolution model.
+    </p>
 
-The project resulted in a working command-line resolver and searchable web application capable of tracing documentation dependencies across 307 drivers. The tool resolves approximately 98% of referenced shared files, transforming a manual repository-wide investigation into an instant lookup while supporting documentation impact analysis, dependency discovery, and identification of orphaned content.
+    <p>
+      The project also reinforced the importance of clearly communicating
+      limitations. Some content is generated by the build process itself and
+      cannot be traced through ordinary references, so the tool explicitly
+      identifies unresolved and build-generated cases rather than overstating
+      certainty.
+    </p>
+  </div>
+</section>
+
+
+<section class="case-section case-outcome">
+  <p class="case-label">Outcome</p>
+
+  <div class="case-section-content">
+    <h2>From manual search to instant impact analysis.</h2>
+
+    <p class="case-lead">
+      The final tool includes both a command-line resolver and searchable web
+      interface capable of tracing documentation dependencies across 307 drivers.
+    </p>
+
+    <div class="case-stats">
+      <div>
+        <strong>307</strong>
+        <span>drivers analyzed</span>
+      </div>
+
+      <div>
+        <strong>~98%</strong>
+        <span>of referenced shared files resolved</span>
+      </div>
+
+      <div>
+        <strong>Seconds</strong>
+        <span>instead of manual repository investigation</span>
+      </div>
+    </div>
+
+    <p>
+      The resolver supports documentation impact analysis, dependency discovery,
+      and identification of shared or potentially orphaned content.
+    </p>
+  </div>
+</section>
+
+
+<nav class="case-pagination" aria-label="Project navigation">
+  <a href="./ai-documentation-agent">
+    <span>Previous project</span>
+    <strong>← AI-Assisted Documentation Review Agent</strong>
+  </a>
+
+  <a class="next-project" href="./#work">
+    <span>Back</span>
+    <strong>Selected work →</strong>
+  </a>
+</nav>
+
+</div>
