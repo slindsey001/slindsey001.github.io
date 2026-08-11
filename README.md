@@ -79,7 +79,7 @@
       </div>
       <a class="text-link" href="./driver-documentation-dependency-resolver">Explore project <span>→</span></a>
     </div>
-    <a class="project-visual" href="./driver-documentation-dependency-resolver" aria-label="View Documentation Dependency Resolver">
+    <a class="project-visual project-visual--ui" href="./driver-documentation-dependency-resolver" aria-label="View Documentation Dependency Resolver">
       <img src="./assets/images/doc_resolver.png" alt="Preview of the documentation dependency resolver project">
     </a>
   </article>
