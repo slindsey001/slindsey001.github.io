@@ -319,6 +319,12 @@ body {
   transform: scale(1.018);
 }
 
+.project-visual--ui img {
+  object-fit: contain;
+  object-position: right center;
+  background: var(--white);
+}
+
 .experience-list {
   border-top: 1px solid var(--line);
 }
