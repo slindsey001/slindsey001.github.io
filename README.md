@@ -359,7 +359,7 @@
 
   <div class="footer-links">
     <a href="mailto:slindsey001@gmail.com">Email ↗</a>
-    <a href="https://github.com/slindsey001">GitHub ↗</a>
+    <a href="https://www.linkedin.com/in/slindsey001/">LinkedIn ↗</a>
     <a href="./assets/Shawn-Lindsey-Resume.pdf">Resume ↗</a>
   </div>
 
