@@ -183,10 +183,10 @@
   <span class="arrow">↗</span>
 </a>
 
-<a class="writing-row" href="https://www.cdata.com/blog/data-hub-vs-data-lake-vs-data-warehouse">
+<a class="writing-row" href="https://docs.cli.cdata.com/overview">
   <span>
-    <strong>Data Hub vs. Data Lake vs. Data Warehouse</strong>
-    <small>Technical comparison of enterprise data systems</small>
+    <strong>CData CLI</strong>
+    <small>A command-line interface for downloading CData JDBC drivers and using them to connect to and query data sources.</small>
   </span>
   <span class="arrow">↗</span>
 </a>
