@@ -186,7 +186,7 @@
 <a class="writing-row" href="https://docs.cli.cdata.com/overview">
   <span>
     <strong>CData CLI</strong>
-    <small>A command-line interface for downloading CData JDBC drivers and using them to connect to and query data sources.</small>
+    <small>A command-line interface for downloading CData JDBC drivers and using them to connect to and query data sources</small>
   </span>
   <span class="arrow">↗</span>
 </a>
