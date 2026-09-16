@@ -191,6 +191,14 @@
   <span class="arrow">↗</span>
 </a>
 
+<a class="writing-row" href="https://www.cdata.com/blog/author/shawn-lindsey/">
+  <span>
+    <strong>CData Blog</strong>
+    <small>Articles on data connectivity, APIs, and technical topics written for the CData Blog</small>
+  </span>
+  <span class="arrow">↗</span>
+</a>
+
   </div>
 
   <div class="writing-group">
