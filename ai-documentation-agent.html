@@ -1,0 +1,87 @@
+---
+layout: portfolio
+nav: review
+title: AI-assisted documentation review agent
+description: A Claude-based reviewer that checks changed docs in the current Git diff and returns structured findings.
+toc:
+  - { id: problem, label: Problem }
+  - { id: approach, label: Approach }
+  - { id: checks, label: What it checks }
+  - { id: prompt, label: Prompt design }
+  - { id: output, label: Example output }
+  - { id: learned, label: What I learned }
+---
+<p class="crumb"><a href="{{ '/' | relative_url }}">Projects</a> / Review agent</p>
+<h1 class="page-title">AI-assisted documentation review agent</h1>
+<p class="lede">A Claude-based reviewer that checks only the files changed in the current Git diff and returns structured, actionable findings. The writer stays in control of every change.</p>
+
+<dl class="facts">
+  <div><dt>Role</dt><dd>Technical writer and agent designer</dd></div>
+  <div><dt>Tools</dt><dd>Claude, Git, Markdown</dd></div>
+  <div><dt>Outcome</dt><dd>Adopted across the CData docs team</dd></div>
+</dl>
+
+<section id="problem">
+  <h2>Problem</h2>
+  <p>Reviewing a docs change means more than checking grammar. Writers also verify implementation details, authentication, prerequisites, configuration, and API behavior against conventions. Most of those checks are important and repetitive. I wanted to see whether an AI reviewer could take on the repeatable ones without taking over the writer's judgment.</p>
+</section>
+
+<section id="approach">
+  <h2>Approach</h2>
+  <p>Instead of reviewing a whole docs set, the agent works from the changes already in Git.</p>
+  <ol>
+    <li><strong>Scope the review</strong> to modified files in the current diff.</li>
+    <li><strong>Structure the findings</strong> by severity and docs area so the important ones surface first.</li>
+    <li><strong>Keep a human in the loop:</strong> the writer approves every change before it lands.</li>
+  </ol>
+</section>
+
+<section id="checks">
+  <h2>What it checks</h2>
+  <dl class="checks">
+    <div><dt>Onboarding</dt><dd>Prerequisites, setup steps, missing context</dd></div>
+    <div><dt>Authentication</dt><dd>Setup, requirements, inconsistencies</dd></div>
+    <div><dt>API references</dt><dd>Outdated references, schema changes, accuracy</dd></div>
+    <div><dt>Configuration</dt><dd>Settings, properties, dependencies, unclear steps</dd></div>
+  </dl>
+</section>
+
+<section id="prompt">
+  <h2>Prompt design</h2>
+  <p>Most iteration went into controlling scope. The goal was not more feedback, but feedback a writer could act on quickly.</p>
+  <pre class="wrap">Review the modified documentation files for outdated API references, missing prerequisites, authentication inconsistencies, schema drift, and unclear steps. Focus only on files changed in the current Git diff and prioritize actionable findings.</pre>
+</section>
+
+<section id="output">
+  <h2>Example output</h2>
+  <div class="diff">
+    <div class="finding">
+      <span class="finding-title">Outdated endpoint</span>
+      <span class="del">- Calls /v1/accounts.</span>
+      <span class="add">+ Calls GET /v2/accounts.</span>
+      <span class="finding-why">/v1 was deprecated in build 9123; the docs lagged.</span>
+    </div>
+    <div class="finding">
+      <span class="finding-title">Hardcoded secret in sample</span>
+      <span class="del">- Password=MyP@ssw0rd!</span>
+      <span class="add">+ Password=&lt;your-password&gt;</span>
+      <span class="finding-why">Copy-paste samples were leaking placeholder credentials into configs.</span>
+    </div>
+    <div class="finding">
+      <span class="finding-title">Schema drift</span>
+      <span class="del">- CreatedDate returned as string.</span>
+      <span class="add">+ CreatedDate returned as datetime.</span>
+      <span class="finding-why">Type changed in build 9088; ADO.NET users got cast errors.</span>
+    </div>
+  </div>
+</section>
+
+<section id="learned">
+  <h2>What I learned</h2>
+  <p>More feedback isn't better feedback. Early versions were verbose and repetitive, so most iteration focused on clarity, consistency, and prioritization. The output had to support the writer's judgment, not add another layer of work.</p>
+</section>
+
+<div class="pager">
+  <a href="{{ '/' | relative_url }}">Back to overview</a>
+  <span>Next: <a href="{{ '/driver-documentation-dependency-resolver' | relative_url }}">Documentation dependency resolver</a></span>
+</div>
