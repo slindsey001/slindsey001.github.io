@@ -340,20 +340,4 @@
     </div>
   </div>
 </section>
-
-<footer class="site-footer">
-  <div>
-    <p class="eyebrow">Get in touch</p>
-    <h2>Let’s make complex products easier to understand.</h2>
-  </div>
-
-  <div class="footer-links">
-    <a href="mailto:slindsey001@gmail.com">Email ↗</a>
-    <a href="https://www.linkedin.com/in/slindsey001/">LinkedIn ↗</a>
-    <a href="./assets/Shawn-Lindsey-Resume.pdf">Resume ↗</a>
-  </div>
-
-  <p class="footer-meta">Shawn Lindsey · Technical Writer · Massachusetts, USA</p>
-</footer>
-
 </div>
