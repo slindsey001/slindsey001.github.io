@@ -175,14 +175,6 @@
   <span class="arrow">↗</span>
 </a>
 
-<a class="writing-row" href="https://cdn.cdata.com/help/BBK/ado/pg_oauthcustomappcreate.htm">
-  <span>
-    <strong>Creating a Custom OAuth Application</strong>
-    <small>OAuth configuration and authentication setup documentation</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
 <a class="writing-row" href="https://docs.cli.cdata.com/overview">
   <span>
     <strong>CData CLI</strong>
