@@ -323,24 +323,6 @@
 
 <section class="section-block">
   <div class="section-heading">
-    <p class="section-kicker">Capabilities</p>
-    <p class="section-index">05</p>
-  </div>
-
-  <div class="capability-grid">
-    <span>API documentation</span>
-    <span>Developer onboarding</span>
-    <span>Docs-as-code</span>
-    <span>Release notes & changelogs</span>
-    <span>Content strategy</span>
-    <span>Git / Markdown / DITA</span>
-    <span>Python / SQL / Java</span>
-    <span>AI-assisted workflows</span>
-  </div>
-</section>
-
-<section class="section-block">
-  <div class="section-heading">
     <p class="section-kicker">Education</p>
     <p class="section-index">06</p>
   </div>
