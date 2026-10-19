@@ -167,14 +167,6 @@
       <h3>CData Software</h3>
     </div>
 
-<a class="writing-row" href="https://cdn.cdata.com/help/FOK/mcp/pg_mcpintro.htm">
-  <span>
-    <strong>Introduction to MCP</strong>
-    <small>Developer onboarding and MCP workflow documentation</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
 <a class="writing-row" href="https://docs.cli.cdata.com/overview">
   <span>
     <strong>CData CLI</strong>
