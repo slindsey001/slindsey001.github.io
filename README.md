@@ -38,12 +38,12 @@
     <a class="home-project" href="./ai-documentation-agent">
       <strong>AI-assisted documentation review agent</strong>
       <span>Reviews the files changed in a Git diff for outdated endpoints, missing prerequisites, and schema drift, with the writer approving every fix. Catches about <mark class="ph">5</mark> issues per review across <mark class="ph">200+</mark> reviews so far.</span>
-      <em>Read the case study →</em>
+      <em>How it works →</em>
     </a>
     <a class="home-project" href="./driver-documentation-dependency-resolver">
       <strong>Documentation dependency resolver</strong>
       <span>A Python tool that shows which of 307 drivers use a shared doc file before anyone changes it. Resolves 98.1% of 1,321 files and turns a <mark class="ph">2-hour</mark> investigation into a lookup that takes seconds.</span>
-      <em>Read the case study →</em>
+      <em>How it works →</em>
     </a>
   </div>
 </section>

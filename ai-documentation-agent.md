@@ -9,229 +9,83 @@ title: AI-Assisted Documentation Review Agent
     <a href="./#work">Work</a>
     <a href="./#experience">Experience</a>
     <a href="./#writing">Writing</a>
-    <a href="./#about">About</a>
+    <a href="mailto:slindsey001@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/slindsey001/">LinkedIn</a>
     <a class="nav-resume" href="./assets/Shawn-Lindsey-Resume.pdf">Resume ↗</a>
   </div>
 </nav>
 
-<div class="portfolio-shell case-study">
+<div class="portfolio-shell home proj">
 
-<section class="case-hero">
-  <a class="case-back" href="./#work">← Selected work</a>
-
-  <p class="eyebrow">AI + Documentation · 01</p>
-
-  <h1>AI-Assisted<br>Documentation<br>Review Agent</h1>
-
-  <p class="case-deck">
-    A Claude-based review workflow designed to improve documentation
-    consistency, reduce repetitive manual review, and make technical
-    feedback more focused and actionable.
-  </p>
-
-  <div class="case-meta">
-    <div>
-      <span class="meta-label">Role</span>
-      <strong>Technical Writer<br>Agent Designer</strong>
-    </div>
-    <div>
-      <span class="meta-label">Environment</span>
-      <strong>Claude<br>Git / Markdown</strong>
-    </div>
-    <div>
-      <span class="meta-label">Focus</span>
-      <strong>AI Workflows<br>Docs-as-Code</strong>
-    </div>
-  </div>
+<section class="proj-intro">
+  <a class="proj-back" href="./#work">← Projects</a>
+  <h1>AI-assisted documentation review agent</h1>
+  <p class="home-lede">A Claude-based reviewer that checks only the files changed in the current Git diff and returns structured findings a writer can act on. The writer approves every change.</p>
+  <dl class="proj-facts">
+    <div><dt>Role</dt><dd>Designed and built it</dd></div>
+    <div><dt>Tools</dt><dd>Claude, Git, Markdown</dd></div>
+    <div><dt>Used by</dt><dd>The 11-person CData docs team</dd></div>
+  </dl>
 </section>
 
-
-<section class="case-section case-intro">
-  <p class="case-label">The problem</p>
-
-  <div class="case-section-content">
-    <h2>Technical reviews involve a lot of important, repetitive checks.</h2>
-
-    <p class="case-lead">
-      Documentation changes need to be checked for more than grammar.
-      Writers have to consider implementation details, authentication,
-      prerequisites, configuration, API behavior, and established
-      documentation conventions.
-    </p>
-
-    <p>
-      The goal of this project was to explore whether an AI-assisted
-      reviewer could handle some of those repeatable checks while keeping
-      the technical writer in control of the final documentation.
-    </p>
-  </div>
+<section class="home-section">
+  <h2>The problem</h2>
+  <p>Reviewing a docs change means more than checking grammar. Writers also verify authentication steps, prerequisites, configuration, and API behavior. Most of those checks are important and repetitive, and they're where things slip. I wanted an AI reviewer to take on the repeatable checks without taking over the writer's judgment.</p>
 </section>
 
+<section class="home-section">
+  <h2>How it works</h2>
+  <ol class="proj-steps">
+    <li><strong>Scoped to the diff.</strong> It reviews only files changed in the current Git diff, not the whole doc set.</li>
+    <li><strong>Structured findings.</strong> Each issue has a category, a before and after, and a reason, sorted so the important ones come first.</li>
+    <li><strong>Human in the loop.</strong> Nothing changes until the writer approves it.</li>
+  </ol>
+  <dl class="proj-checks">
+    <div><dt>Onboarding</dt><dd>Prerequisites, setup steps, missing context</dd></div>
+    <div><dt>Authentication</dt><dd>Setup requirements and inconsistencies</dd></div>
+    <div><dt>API references</dt><dd>Outdated endpoints and schema drift</dd></div>
+    <div><dt>Configuration</dt><dd>Properties, dependencies, unclear steps</dd></div>
+  </dl>
+</section>
 
-<section class="case-section">
-  <p class="case-label">The approach</p>
-
-  <div class="case-section-content">
-    <h2>Make the review narrow, structured, and actionable.</h2>
-
-    <p>
-      Rather than asking an AI system to broadly review an entire
-      documentation set, I designed the workflow around the changes
-      already being made in Git.
-    </p>
-
-    <div class="case-principles">
-      <div>
-        <span>01</span>
-        <h3>Scope the review</h3>
-        <p>
-          Use the current Git diff to focus analysis on modified
-          documentation instead of reviewing unrelated content.
-        </p>
-      </div>
-
-      <div>
-        <span>02</span>
-        <h3>Structure the findings</h3>
-        <p>
-          Categorize review output by severity and documentation area
-          so writers can quickly identify the most important issues.
-        </p>
-      </div>
-
-      <div>
-        <span>03</span>
-        <h3>Build in safeguards</h3>
-        <p>
-          Keep recommendations focused and actionable while preserving
-          human review and approval before documentation changes are made.
-        </p>
-      </div>
+<section class="home-section">
+  <h2>Example findings</h2>
+  <div class="proj-diff">
+    <div class="proj-finding">
+      <strong>Outdated endpoint</strong>
+      <code class="proj-del">- Calls /v1/accounts.</code>
+      <code class="proj-add">+ Calls GET /v2/accounts.</code>
+      <span>/v1 was deprecated in build 9123; the docs lagged.</span>
+    </div>
+    <div class="proj-finding">
+      <strong>Hardcoded secret in sample</strong>
+      <code class="proj-del">- Password=MyP@ssw0rd!</code>
+      <code class="proj-add">+ Password=&lt;your-password&gt;</code>
+      <span>Copy-paste samples were leaking placeholder credentials into configs.</span>
+    </div>
+    <div class="proj-finding">
+      <strong>Schema drift</strong>
+      <code class="proj-del">- CreatedDate returned as string.</code>
+      <code class="proj-add">+ CreatedDate returned as datetime.</code>
+      <span>Type changed in build 9088; ADO.NET users got cast errors.</span>
     </div>
   </div>
 </section>
 
-
-<section class="case-section">
-  <p class="case-label">Review coverage</p>
-
-  <div class="case-section-content">
-    <h2>Designed around the things technical writers actually review.</h2>
-
-    <div class="case-check-grid">
-      <div>
-        <span>01</span>
-        <strong>Onboarding</strong>
-        <p>Prerequisites, setup steps, and missing context.</p>
-      </div>
-
-      <div>
-        <span>02</span>
-        <strong>Authentication</strong>
-        <p>Authentication setup, requirements, and inconsistencies.</p>
-      </div>
-
-      <div>
-        <span>03</span>
-        <strong>API references</strong>
-        <p>Outdated references, schema changes, and technical accuracy.</p>
-      </div>
-
-      <div>
-        <span>04</span>
-        <strong>Configuration</strong>
-        <p>Settings, properties, dependencies, and unclear instructions.</p>
-      </div>
-    </div>
-  </div>
+<section class="home-section">
+  <h2>The prompt</h2>
+  <p>Most iteration went into controlling scope. The goal was feedback a writer could act on quickly, not more feedback.</p>
+  <pre class="proj-code">Review the modified documentation files for outdated API references, missing prerequisites, authentication inconsistencies, schema drift, and unclear steps. Focus only on files changed in the current Git diff and prioritize actionable findings.</pre>
 </section>
 
-
-<section class="case-section">
-  <p class="case-label">Prompt design</p>
-
-  <div class="case-section-content">
-    <h2>Give the reviewer a specific job.</h2>
-
-    <div class="prompt-block">
-      <span class="prompt-label">Example review instruction</span>
-
-      <p>
-        Review the modified documentation files for outdated API references,
-        missing prerequisites, authentication inconsistencies, schema drift,
-        and unclear steps. Focus only on files changed in the current Git diff
-        and prioritize actionable findings.
-      </p>
-    </div>
-
-    <p>
-      Prompt iteration focused heavily on controlling scope. The objective
-      wasn't to maximize the amount of feedback—it was to make the feedback
-      useful enough that a technical writer could act on it quickly.
-    </p>
-  </div>
+<section class="home-section">
+  <h2>Result</h2>
+  <p>The agent is now part of the docs team's review workflow, catching about <mark class="ph">5</mark> issues per review across <mark class="ph">200+</mark> reviews and cutting review time by about <mark class="ph">30%</mark>. The biggest lesson: early versions were verbose, and most of the work was making the output shorter, more consistent, and better prioritized.</p>
 </section>
 
-
-<section class="case-visual-section">
-  <div class="case-visual-heading">
-    <p class="case-label">Example output</p>
-    <p>Structured findings from a documentation review.</p>
-  </div>
-
-  <div class="case-large-visual">
-    <img
-      src="./assets/images/doc_review.png"
-      alt="Example output from the AI-assisted documentation review agent">
-  </div>
-</section>
-
-
-<section class="case-section">
-  <p class="case-label">What I learned</p>
-
-  <div class="case-section-content">
-    <h2>More feedback isn't necessarily better feedback.</h2>
-
-    <p class="case-lead">
-      One of the biggest challenges was preventing the review from becoming
-      overly verbose or repetitive.
-    </p>
-
-    <p>
-      A significant part of the iteration process focused on improving
-      clarity, consistency, and prioritization so that the output supported
-      the writer's judgment instead of creating another layer of work.
-    </p>
-  </div>
-</section>
-
-
-<section class="case-section case-outcome">
-  <p class="case-label">Outcome</p>
-
-  <div class="case-section-content">
-    <h2>From experiment to documentation workflow.</h2>
-
-    <p class="case-lead">
-      The resulting workflow concepts and review patterns were adopted
-      across the documentation team to help streamline reviews, improve
-      consistency, and reduce manual documentation overhead.
-    </p>
-  </div>
-</section>
-
-
-<nav class="case-pagination" aria-label="Project navigation">
-  <a href="./#work">
-    <span>Back</span>
-    <strong>Selected work</strong>
-  </a>
-
-  <a class="next-project" href="./driver-documentation-dependency-resolver">
-    <span>Next project</span>
-    <strong>Documentation Dependency Resolver →</strong>
-  </a>
-</nav>
+<div class="proj-pager">
+  <a href="./#work">← All projects</a>
+  <a href="./driver-documentation-dependency-resolver">Next: Documentation dependency resolver →</a>
+</div>
 
 </div>
