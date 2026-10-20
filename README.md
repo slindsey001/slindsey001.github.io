@@ -62,7 +62,7 @@
 <section id="writing" class="home-section">
   <h2>Writing samples</h2>
   <div class="home-samples">
-    <a href="https://docs.cli.cdata.com/overview">CData CLI documentation<span>CData</span></a>
+    <a href="https://docs.cli.cdata.com/overview">CData CLI documentation (owned end to end) <span>CData</span></a>
     <a href="https://cdn.cdata.com/help/BBK/ado/pg_oauthcustomappcreate.htm">Creating a custom OAuth application <span>CData</span></a>
     <a href="https://www.cdata.com/blog/author/shawn-lindsey/">CData blog articles <span>CData</span></a>
     <a href="https://docs.cdp.coinbase.com/wallets/demos/demo-app-tutorial">Wallet demo app tutorial <span>Coinbase</span></a>
@@ -71,7 +71,7 @@
     <a href="https://www.protocol.ai/blog/meet-3box-labs-building-a-web-of-rust-with-data/">Building a web of trust with data <span>Protocol Labs</span></a>
     <a href="https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/">Pioneering the future of encrypted data <span>Protocol Labs</span></a>
     <a href="https://www3.rocketsoftware.com/bluezone/help/v101/en/bzweb/default.htm">Rocket TE Web administrator guide <span>Rocket</span></a>
-    <a href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/admn_inline_index_disabling.html">Disabling inline view indexing <span>IBM</span></a>
+    <a href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/over_whats_new_in_fp9.html">What's new in Feature Pack 9 <span>IBM</span></a>
   </div>
 </section>
 
