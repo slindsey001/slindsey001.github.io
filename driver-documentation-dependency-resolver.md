@@ -30,7 +30,7 @@ title: Documentation Dependency Resolver
 
 <section class="home-section">
   <h2>The problem</h2>
-  <p>CData docs are assembled from shared content reused across more than 300 drivers. A shared file reaches a build through layers of includes, entities, chapters, and conditional rules, so "if I change this file, which drivers are affected?" had no quick answer. Finding out took repository-wide searches and about <mark class="ph">2 hours</mark> of manual tracing.</p>
+  <p>CData docs are assembled from shared content reused across more than 300 drivers. A shared file reaches a build through layers of includes, entities, chapters, and conditional rules, so "if I change this file, which drivers are affected?" had no quick answer. Finding out took repository-wide searches and about 2 hours of manual tracing.</p>
 </section>
 
 <section class="home-section">
