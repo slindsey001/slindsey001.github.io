@@ -24,7 +24,7 @@ title: AI-Assisted Documentation Review Agent
   <dl class="proj-facts">
     <div><dt>Role</dt><dd>Designed and built it</dd></div>
     <div><dt>Tools</dt><dd>Claude, Git, Markdown</dd></div>
-    <div><dt>Used by</dt><dd>The 11-person CData docs team</dd></div>
+    <div><dt>Used by</dt><dd>The CData docs team</dd></div>
   </dl>
 </section>
 
