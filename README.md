@@ -14,7 +14,7 @@
 
 <section class="home-intro" aria-labelledby="hero-title">
   <h1 id="hero-title">Shawn Lindsey</h1>
-  <p class="home-lede">Technical writer who builds documentation tooling. 10+ years of developer documentation, most recently at CData Software, where I write CLI, connector, and authentication docs and build the tools our docs team uses to review and maintain them.</p>
+  <p class="home-lede">Technical writer who builds documentation tooling. 10+ years of developer docs, most recently at CData Software, where I write CLI, connector, and authentication content and build the tools our docs team uses to review and maintain them.</p>
 
   <dl class="home-skills">
     <div>
