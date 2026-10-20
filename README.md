@@ -19,7 +19,7 @@
   <dl class="home-skills">
     <div>
       <dt>Docs tooling and LLM automation</dt>
-      <dd>Built a Claude-based review agent used across our 11-person docs team that cut review time by about <mark class="ph">30%</mark>, and a Python resolver that maps shared docs across 307 driver builds.</dd>
+      <dd>Built a Claude-based review agent used across our 11-person docs team that cut review time by about 30%, and a Python resolver that maps shared docs across 307 driver builds.</dd>
     </div>
     <div>
       <dt>Developer docs, end to end</dt>
@@ -37,12 +37,12 @@
   <div class="home-projects">
     <a class="home-project" href="./ai-documentation-agent">
       <strong>AI-assisted documentation review agent</strong>
-      <span>Reviews the files changed in a Git diff for outdated endpoints, missing prerequisites, and schema drift, with the writer approving every fix. Catches about <mark class="ph">5</mark> issues per review across <mark class="ph">200+</mark> reviews so far.</span>
+      <span>Reviews the files changed in a Git diff for outdated endpoints, missing prerequisites, and schema drift, with the writer approving every fix. Catches several issues per review across daily reviews so far.</span>
       <em>How it works →</em>
     </a>
     <a class="home-project" href="./driver-documentation-dependency-resolver">
       <strong>Documentation dependency resolver</strong>
-      <span>A Python tool that shows which of 307 drivers use a shared doc file before anyone changes it. Resolves 98.1% of 1,321 files and turns a <mark class="ph">2-hour</mark> investigation into a lookup that takes seconds.</span>
+      <span>A Python tool that shows which of 307 drivers use a shared doc file before anyone changes it. Resolves 98.1% of 1,321 files and turns a multi-hour investigation into a lookup that takes seconds.</span>
       <em>How it works →</em>
     </a>
   </div>
@@ -53,7 +53,7 @@
   <div class="home-rows">
     <div class="home-row"><span class="home-date">2024–now</span><span><strong>Technical Writer</strong>, CData Software</span><span class="home-note">CLI docs owner; connector, MCP, and auth docs; docs tooling</span></div>
     <div class="home-row"><span class="home-date">2023–2024</span><span><strong>Content Writer</strong>, Protocol Labs</span><span class="home-note">Technical content on Web3 infrastructure projects</span></div>
-    <div class="home-row"><span class="home-date">2021–2023</span><span><strong>Lead Editor</strong>, Coinbase</span><span class="home-note">Support docs, content strategy, audits, and a CMS migration of <mark class="ph">300+</mark> articles</span></div>
+    <div class="home-row"><span class="home-date">2021–2023</span><span><strong>Lead Editor</strong>, Coinbase</span><span class="home-note">Support docs, content strategy, audits, and a CMS migration of 300+ articles</span></div>
     <div class="home-row"><span class="home-date">2017–2021</span><span><strong>Information Developer</strong>, Rocket Software</span><span class="home-note">API guides, release notes, tutorials in Git, DITA, Markdown</span></div>
     <div class="home-row"><span class="home-date">2016–2017</span><span><strong>Information Developer</strong>, IBM</span><span class="home-note">DITA product docs and localization-ready content</span></div>
   </div>
