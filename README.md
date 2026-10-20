@@ -4,324 +4,77 @@
     <a href="#work">Work</a>
     <a href="#experience">Experience</a>
     <a href="#writing">Writing</a>
-    <a href="#about">About</a>
+    <a href="mailto:slindsey001@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/slindsey001/">LinkedIn</a>
     <a class="nav-resume" href="./assets/Shawn-Lindsey-Resume.pdf">Resume ↗</a>
   </div>
 </nav>
 
-<div id="top" class="portfolio-shell">
+<div id="top" class="portfolio-shell home">
 
-<section class="hero" aria-labelledby="hero-title">
-  <p class="eyebrow">Technical Writer · Developer Experience</p>
+<section class="home-intro" aria-labelledby="hero-title">
   <h1 id="hero-title">Shawn Lindsey</h1>
-  <p class="hero-copy">
-    I create developer documentation, API content, and documentation systems
-    that make complex technical products easier to understand and use.
-  </p>
+  <p class="home-lede">Technical writer who builds documentation tooling. 10 years of developer documentation, most recently at CData Software, where I write CLI, connector, and authentication docs and build the tools our docs team uses to review and maintain them.</p>
 
-  <div class="hero-meta">
+  <dl class="home-skills">
     <div>
-      <span class="meta-label">Currently</span>
-      <strong>CData Software</strong>
+      <dt>Docs tooling and LLM automation</dt>
+      <dd>Built a Claude-based review agent used across our 11-person docs team that cut review time by about <mark class="ph">30%</mark>, and a Python resolver that maps shared docs across 307 driver builds.</dd>
     </div>
     <div>
-      <span class="meta-label">Focus</span>
-      <strong>Developer docs · Docs-as-code · AI workflows</strong>
+      <dt>Developer docs, end to end</dt>
+      <dd>Owned the CData CLI documentation from first draft through its first release, publishing it on Mintlify and testing commands and code samples in Docker. Also documented MCP server setup across IDEs, OAuth configuration, and API guides at Rocket and Coinbase.</dd>
     </div>
-  </div>
-
-  <div class="hero-actions">
-    <a class="button button-primary" href="#work">View selected work ↓</a>
-    <a class="button button-secondary" href="./assets/Shawn-Lindsey-Resume.pdf">View resume ↗</a>
-  </div>
+    <div>
+      <dt>Docs-as-code and content architecture</dt>
+      <dd>Git, Markdown, and DITA workflows; modeled reusable content shared across hundreds of products so one change reaches every build that needs it.</dd>
+    </div>
+  </dl>
 </section>
 
-<section id="work" class="section-block">
-  <div class="section-heading">
-    <p class="section-kicker">Selected work</p>
-    <p class="section-index">01</p>
-  </div>
-
-  <article class="project-feature">
-    <div class="project-content">
-      <p class="project-number">01 / Documentation systems</p>
-      <h2>AI-Assisted Documentation Review Agent</h2>
-      <p class="project-summary">
-        An AI-assisted documentation workflow designed to improve review consistency,
-        reduce repetitive manual checks, and help writers validate changes against
-        source material and documentation standards.
-      </p>
-      <div class="tag-row" aria-label="Project topics">
-        <span>AI workflows</span>
-        <span>Docs-as-code</span>
-        <span>Developer experience</span>
-      </div>
-      <a class="text-link" href="./ai-documentation-agent">Explore project <span>→</span></a>
-    </div>
-    <a class="project-visual" href="./ai-documentation-agent" aria-label="View AI-Assisted Documentation Review Agent">
-      <img src="./assets/images/doc_review.png" alt="Preview of the AI-assisted documentation review project">
+<section id="work" class="home-section">
+  <h2>Projects</h2>
+  <div class="home-projects">
+    <a class="home-project" href="./ai-documentation-agent">
+      <strong>AI-assisted documentation review agent</strong>
+      <span>Reviews the files changed in a Git diff for outdated endpoints, missing prerequisites, and schema drift, with the writer approving every fix. Catches about <mark class="ph">5</mark> issues per review across <mark class="ph">200+</mark> reviews so far.</span>
+      <em>Read the case study →</em>
     </a>
-  </article>
-
-  <article class="project-feature">
-    <div class="project-content">
-      <p class="project-number">02 / Documentation infrastructure</p>
-      <h2>Documentation Dependency Resolver</h2>
-      <p class="project-summary">
-        A Python-based tool for tracing shared documentation dependencies across
-        hundreds of product builds, making large-scale documentation changes safer
-        and easier to reason about.
-      </p>
-      <div class="tag-row" aria-label="Project topics">
-        <span>Python</span>
-        <span>Documentation infrastructure</span>
-        <span>Docs-as-code</span>
-      </div>
-      <a class="text-link" href="./driver-documentation-dependency-resolver">Explore project <span>→</span></a>
-    </div>
-    <a class="project-visual project-visual--ui" href="./driver-documentation-dependency-resolver" aria-label="View Documentation Dependency Resolver">
-      <img src="./assets/images/doc_resolver.png" alt="Preview of the documentation dependency resolver project">
+    <a class="home-project" href="./driver-documentation-dependency-resolver">
+      <strong>Documentation dependency resolver</strong>
+      <span>A Python tool that shows which of 307 drivers use a shared doc file before anyone changes it. Resolves 98.1% of 1,321 files and turns a <mark class="ph">2-hour</mark> investigation into a lookup that takes seconds.</span>
+      <em>Read the case study →</em>
     </a>
-  </article>
-</section>
-
-<section id="experience" class="section-block">
-  <div class="section-heading">
-    <p class="section-kicker">Experience</p>
-    <p class="section-index">02</p>
-  </div>
-
-  <div class="experience-list">
-    <article class="experience-row">
-      <p class="experience-date">2024 — Present</p>
-      <div class="experience-role">
-        <h3>Technical Writer</h3>
-        <p class="company">CData Software</p>
-      </div>
-      <p class="experience-summary">
-        Developer documentation for enterprise data connectors, APIs, authentication
-        systems, changelogs, and AI-assisted documentation workflows.
-      </p>
-    </article>
-
-<article class="experience-row">
-  <p class="experience-date">2023 — 2024</p>
-  <div class="experience-role">
-    <h3>Content Writer</h3>
-    <p class="company">Protocol Labs</p>
-  </div>
-  <p class="experience-summary">
-    Technical ecosystem content on emerging Web3 projects, with an emphasis on
-    accuracy, editorial consistency, and explaining complex technology clearly.
-  </p>
-</article>
-
-<article class="experience-row">
-  <p class="experience-date">2021 — 2023</p>
-  <div class="experience-role">
-    <h3>Lead Editor</h3>
-    <p class="company">Coinbase</p>
-  </div>
-  <p class="experience-summary">
-    Content strategy, support documentation, product-launch communications,
-    change-management newsletters, audits, and CMS migration work.
-  </p>
-</article>
-
-<article class="experience-row">
-  <p class="experience-date">2017 — 2021</p>
-  <div class="experience-role">
-    <h3>Information Developer</h3>
-    <p class="company">Rocket Software</p>
-  </div>
-  <p class="experience-summary">
-    API guides, user manuals, release notes, interactive tutorials, UX writing,
-    and versioned documentation using Git, DITA, and Markdown.
-  </p>
-</article>
-
-<article class="experience-row">
-  <p class="experience-date">2016 — 2017</p>
-  <div class="experience-role">
-    <h3>Information Developer</h3>
-    <p class="company">IBM</p>
-  </div>
-  <p class="experience-summary">
-    DITA-based product documentation, release content, UX collaboration, and
-    localization-ready documentation for global audiences.
-  </p>
-</article>
-
   </div>
 </section>
 
-<section id="writing" class="section-block">
-  <div class="section-heading">
-    <p class="section-kicker">Selected writing</p>
-    <p class="section-index">03</p>
+<section id="experience" class="home-section">
+  <h2>Experience</h2>
+  <div class="home-rows">
+    <div class="home-row"><span class="home-date">2024–now</span><span><strong>Technical Writer</strong>, CData Software</span><span class="home-note">CLI docs owner (<mark class="ph">40</mark> pages); connector, MCP, and auth docs; docs tooling</span></div>
+    <div class="home-row"><span class="home-date">2023–2024</span><span><strong>Content Writer</strong>, Protocol Labs</span><span class="home-note">Technical content on Web3 infrastructure projects</span></div>
+    <div class="home-row"><span class="home-date">2021–2023</span><span><strong>Lead Editor</strong>, Coinbase</span><span class="home-note">Support docs, content strategy, audits, and a CMS migration of <mark class="ph">300</mark> articles</span></div>
+    <div class="home-row"><span class="home-date">2017–2021</span><span><strong>Information Developer</strong>, Rocket Software</span><span class="home-note">API guides, release notes, tutorials in Git, DITA, Markdown</span></div>
+    <div class="home-row"><span class="home-date">2016–2017</span><span><strong>Information Developer</strong>, IBM</span><span class="home-note">DITA product docs and localization-ready content</span></div>
   </div>
-
-  <div class="writing-group">
-    <div class="company-heading">
-      <img src="./assets/images/cdata.png" alt="">
-      <h3>CData Software</h3>
-    </div>
-
-<a class="writing-row" href="https://docs.cli.cdata.com/overview">
-  <span>
-    <strong>CData CLI</strong>
-    <small>A command-line interface for downloading CData JDBC drivers and using them to connect to and query data sources</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
-<a class="writing-row" href="https://www.cdata.com/blog/author/shawn-lindsey/">
-  <span>
-    <strong>CData Blog</strong>
-    <small>Technical articles and data connectivity content written for the CData Blog</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
-  </div>
-
-  <div class="writing-group">
-    <div class="company-heading">
-      <img src="./assets/images/coinbase.png" alt="">
-      <h3>Coinbase</h3>
-    </div>
-
-<a class="writing-row" href="https://help.coinbase.com/en/cloud/participate/launch-cluster">
-  <span>
-    <strong>Launch a Participate Cluster</strong>
-    <small>Cloud infrastructure onboarding documentation</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
-<a class="writing-row" href="https://help.coinbase.com/en/cloud/participate/manage-cluster">
-  <span>
-    <strong>Manage your Participate Cluster</strong>
-    <small>Developer workflow and operational guidance</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
-<a class="writing-row" href="https://docs.cdp.coinbase.com/wallets/demos/demo-app-tutorial">
-  <span>
-    <strong>Demo App Tutorial</strong>
-    <small>End-to-end wallet integration and onboarding tutorial</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
-  </div>
-
-  <div class="writing-group">
-    <div class="company-heading">
-      <img src="./assets/images/protocol_labs.png" alt="">
-      <h3>Protocol Labs</h3>
-    </div>
-
-<a class="writing-row" href="https://www.protocol.ai/blog/meet-3box-labs-building-a-web-of-rust-with-data/">
-  <span>
-    <strong>Building a Web of Trust with Data</strong>
-    <small>Technical ecosystem and infrastructure storytelling</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
-<a class="writing-row" href="https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/">
-  <span>
-    <strong>Pioneering the Future of Encrypted Data</strong>
-    <small>Emerging technology and encryption-focused content</small>
-  </span>
-  <span class="arrow">↗</span>
-</a>
-
-  </div>
-
-  <details class="archive">
-    <summary>Earlier writing samples <span>+</span></summary>
-
-<div class="writing-group archive-group">
-  <div class="company-heading">
-    <img src="./assets/images/rocket_software.png" alt="">
-    <h3>Rocket Software</h3>
-  </div>
-  <a class="writing-row" href="https://www3.rocketsoftware.com/bluezone/help/v101/en/bzweb/default.htm">
-    <span>
-      <strong>Rocket TE Web Administrator Guide</strong>
-      <small>Enterprise administration and product documentation</small>
-    </span>
-    <span class="arrow">↗</span>
-  </a>
-</div>
-
-<div class="writing-group archive-group">
-  <div class="company-heading">
-    <img src="./assets/images/ibm.png" alt="">
-    <h3>IBM</h3>
-  </div>
-  <a class="writing-row" href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/over_whats_new_in_fp9.html">
-    <span>
-      <strong>What’s New in Feature Pack 9</strong>
-      <small>Product release and feature documentation</small>
-    </span>
-    <span class="arrow">↗</span>
-  </a>
-  <a class="writing-row" href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/admn_inline_index_disabling.html">
-    <span>
-      <strong>Disabling Inline View Indexing</strong>
-      <small>Administrative configuration documentation</small>
-    </span>
-    <span class="arrow">↗</span>
-  </a>
-</div>
-
-  </details>
+  <p class="home-edu">MS, Technical and Scientific Communication, Northeastern University · BA, English, UMass Boston</p>
 </section>
 
-<section id="about" class="section-block about-grid">
-  <div>
-    <div class="section-heading compact-heading">
-      <p class="section-kicker">About</p>
-      <p class="section-index">04</p>
-    </div>
-    <h2 class="about-title">Documentation at the intersection of product, engineering, and users.</h2>
-  </div>
-
-  <div class="about-copy">
-    <p>
-      I’m a technical writer with 10+ years of experience creating developer
-      documentation, API references, release notes, changelogs, and enterprise
-      software documentation.
-    </p>
-    <p>
-      My work combines editorial judgment with technical systems thinking:
-      Git-based docs-as-code workflows, structured content, developer onboarding,
-      and AI-assisted tooling that helps documentation teams work more effectively.
-    </p>
+<section id="writing" class="home-section">
+  <h2>Writing samples</h2>
+  <div class="home-samples">
+    <a href="https://docs.cli.cdata.com/overview">CData CLI documentation (owned end to end) <span>CData</span></a>
+    <a href="https://cdn.cdata.com/help/BBK/ado/pg_oauthcustomappcreate.htm">Creating a custom OAuth application <span>CData</span></a>
+    <a href="https://www.cdata.com/blog/author/shawn-lindsey/">CData blog articles <span>CData</span></a>
+    <a href="https://docs.cdp.coinbase.com/wallets/demos/demo-app-tutorial">Wallet demo app tutorial <span>Coinbase</span></a>
+    <a href="https://help.coinbase.com/en/cloud/participate/launch-cluster">Launch a Participate cluster <span>Coinbase</span></a>
+    <a href="https://help.coinbase.com/en/cloud/participate/manage-cluster">Manage your Participate cluster <span>Coinbase</span></a>
+    <a href="https://www.protocol.ai/blog/meet-3box-labs-building-a-web-of-rust-with-data/">Building a web of trust with data <span>Protocol Labs</span></a>
+    <a href="https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/">Pioneering the future of encrypted data <span>Protocol Labs</span></a>
+    <a href="https://www3.rocketsoftware.com/bluezone/help/v101/en/bzweb/default.htm">Rocket TE Web administrator guide <span>Rocket</span></a>
+    <a href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/over_whats_new_in_fp9.html">What's new in Feature Pack 9 <span>IBM</span></a>
+    <a href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/admn_inline_index_disabling.html">Disabling inline view indexing <span>IBM</span></a>
   </div>
 </section>
 
-<section class="section-block">
-  <div class="section-heading">
-    <p class="section-kicker">Education</p>
-    <p class="section-index">06</p>
-  </div>
-
-  <div class="education-list">
-    <div>
-      <p class="education-year">2014</p>
-      <h3>Northeastern University</h3>
-      <p>Master of Science · Technical and Scientific Communication</p>
-    </div>
-    <div>
-      <p class="education-year">2009</p>
-      <h3>University of Massachusetts Boston</h3>
-      <p>Bachelor of Arts · English</p>
-    </div>
-  </div>
-</section>
 </div>
