@@ -1412,5 +1412,74 @@ body {
   .proj-intro h1 { font-size: 28px; }
 }
 
+/* =========================================
+   ACCENT AND DEPTH
+   One accent color, used for links, labels, and highlights.
+   Change --accent to recolor the whole site.
+   ========================================= */
+
+:root {
+  --accent: #2450B8;
+  --accent-ink: #1B3D8C;
+  --accent-soft: #EEF2FB;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Nav: accent resume pill and a solid mark */
+.markdown-body .site-mark { background: var(--ink); color: var(--white); border-color: var(--ink); }
+.markdown-body .site-nav-links a:hover { color: var(--accent); }
+.markdown-body .site-nav-links .nav-resume { padding: 7px 14px; border-radius: 999px; background: var(--accent); color: var(--white); }
+.markdown-body .site-nav-links .nav-resume:hover { background: var(--accent-ink); color: var(--white); }
+
+/* Intro: name with an accent rule under it */
+.home-intro h1::after,
+.proj-intro h1::after { content: ""; display: block; width: 48px; height: 4px; margin-top: 14px; border-radius: 2px; background: var(--accent); }
+
+/* Skills: three tinted panels with an accent top edge */
+.home-skills > div { padding: 16px 18px; border-top: 3px solid var(--accent); border-radius: 4px 4px 10px 10px; background: var(--accent-soft); }
+.home-skills dt { color: var(--accent-ink); }
+.home-skills dd { color: #3E4650; }
+
+/* Section labels: accent with a short bar */
+.home-section h2 { display: flex; align-items: center; gap: 10px; color: var(--accent); }
+.home-section h2::before { content: ""; width: 14px; height: 2px; background: var(--accent); }
+
+/* Project cards: lift on hover, accent link */
+.markdown-body a.home-project { position: relative; padding: 20px 22px; box-shadow: 0 1px 2px rgba(17, 17, 17, 0.04); transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease; }
+.markdown-body a.home-project:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 8px 24px rgba(36, 80, 184, 0.12); }
+.home-project em { color: var(--accent); font-weight: 600; }
+
+/* Experience and samples: monospace dates, accent on hover */
+.home-date { font-family: var(--mono); font-size: 13px; }
+.home-row strong { font-weight: 600; }
+.markdown-body .home-samples a { transition: color 120ms ease, padding 120ms ease; }
+.markdown-body .home-samples a:hover { padding-left: 6px; color: var(--accent); }
+.home-samples a span { font-size: 12px; }
+
+/* Project pages */
+.markdown-body a.proj-back:hover { color: var(--accent); }
+.proj-facts { padding: 14px 18px; border-radius: 10px; background: var(--accent-soft); }
+.proj-facts dt { color: var(--accent-ink); }
+
+.proj-steps { list-style: none; padding-left: 0; counter-reset: step; }
+.proj-steps li { position: relative; padding-left: 36px; counter-increment: step; }
+.proj-steps li::before { content: counter(step); position: absolute; left: 0; top: 1px; display: grid; width: 24px; height: 24px; place-items: center; border-radius: 50%; background: var(--accent); color: var(--white); font-size: 12px; font-weight: 600; }
+
+.proj-checks > div { padding-left: 12px; border-left: 2px solid var(--accent); }
+.proj-diff { box-shadow: 0 1px 2px rgba(17, 17, 17, 0.04); }
+.markdown-body pre.proj-code { background: #16191D; border-color: #16191D; color: #E6E9ED; }
+.proj-stats dd { color: var(--accent); font-size: 28px; }
+.markdown-body .proj-pager a { font-weight: 600; }
+
+@media (prefers-reduced-motion: reduce) {
+  .markdown-body a.home-project, .markdown-body .home-samples a { transition: none; }
+  .markdown-body a.home-project:hover { transform: none; }
+}
+
+/* Alignment touch-ups */
+.home-row, .markdown-body .home-samples a { align-items: baseline; }
+mark.ph { white-space: nowrap; }
+@media (max-width: 800px) { .home-row { row-gap: 2px; } }
+
 /* Placeholder metrics: replace every one before publishing, then delete this rule. */
 mark.ph { background: #FFE58A; color: #111111; padding: 0 3px; border-radius: 3px; }
