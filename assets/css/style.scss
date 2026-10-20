@@ -1325,3 +1325,47 @@ body {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* =========================================
+   COMPACT HOMEPAGE
+   ========================================= */
+
+.home { padding-bottom: 56px; }
+
+.home-intro { padding: 48px 0 32px; border-bottom: 1px solid var(--line); }
+.home-intro h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 12px !important; }
+.home-lede { max-width: 680px; font-size: 18px; line-height: 1.5; color: var(--ink); }
+
+.home-skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 28px 0 0; }
+.home-skills dt { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+.home-skills dd { margin: 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
+
+.home-section { padding: 32px 0; border-bottom: 1px solid var(--line); }
+.home-section:last-child { border-bottom: 0; }
+.home-section h2 { font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px !important; }
+
+.home-projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.markdown-body a.home-project { display: flex; flex-direction: column; gap: 6px; padding: 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--white); color: var(--ink); text-decoration: none; }
+.markdown-body a.home-project:hover { border-color: var(--ink); }
+.home-project strong { font-size: 17px; }
+.home-project span { font-size: 14px; line-height: 1.5; color: var(--muted); }
+.home-project em { font-style: normal; font-size: 14px; margin-top: 4px; }
+
+.home-rows { display: flex; flex-direction: column; }
+.home-row { display: grid; grid-template-columns: 90px minmax(0, 1fr) minmax(0, 1.3fr); gap: 16px; padding: 9px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.home-date { color: var(--muted); font-variant-numeric: tabular-nums; }
+.home-note { color: var(--muted); }
+.home-edu { margin-top: 12px !important; font-size: 14px; color: var(--muted); }
+
+.home-samples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 32px; }
+.markdown-body .home-samples a { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink); }
+.home-samples a span { color: var(--muted); white-space: nowrap; }
+
+@media (max-width: 800px) {
+  .home-skills, .home-projects, .home-samples { grid-template-columns: minmax(0, 1fr); }
+  .home-row { grid-template-columns: 80px minmax(0, 1fr); }
+  .home-note { grid-column: 2; }
+}
+
+/* Placeholder metrics: replace every one before publishing, then delete this rule. */
+mark.ph { background: #FFE58A; color: #111111; padding: 0 3px; border-radius: 3px; }
