@@ -80,7 +80,7 @@ title: AI-Assisted Documentation Review Agent
 
 <section class="home-section">
   <h2>Result</h2>
-  <p>The agent is now part of the docs team's review workflow, catching about <mark class="ph">5</mark> issues per review across <mark class="ph">200+</mark> reviews and cutting review time by about <mark class="ph">30%</mark>. The biggest lesson: early versions were verbose, and most of the work was making the output shorter, more consistent, and better prioritized.</p>
+  <p>The agent is now part of the docs team's review workflow, catching several issues per review and cutting review time by about 50%. The biggest lesson: early versions were verbose, and most of the work was making the output shorter, more consistent, and better prioritized.</p>
 </section>
 
 <div class="proj-pager">
