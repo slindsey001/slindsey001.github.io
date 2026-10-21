@@ -14,12 +14,12 @@
 
 <section class="home-intro" aria-labelledby="hero-title">
   <h1 id="hero-title">Shawn Lindsey</h1>
-  <p class="home-lede">Technical writer who builds documentation tooling. 10+ years of developer docs, most recently at CData Software, where I write CLI, connector, and authentication content and build the tools our docs team uses to review and maintain them.</p>
+  <p class="home-lede">Technical Writer, CData Software. Developer documentation, docs-as-code, and documentation tooling.</p>
 
   <dl class="home-skills">
     <div>
       <dt>Docs tooling and LLM automation</dt>
-      <dd>Built a Claude-based review agent used across our 11-person docs team that cut review time by about 30%, and a Python resolver that maps shared docs across 307 driver builds.</dd>
+      <dd>Built a Claude-based review agent used across our docs team that cut review time by about 50%, and a Python resolver that maps shared docs across 307 driver builds.</dd>
     </div>
     <div>
       <dt>Developer docs, end to end</dt>
@@ -62,7 +62,7 @@
 <section id="writing" class="home-section">
   <h2>Writing samples</h2>
   <div class="home-samples">
-    <a href="https://docs.cli.cdata.com/overview">CData CLI documentation (owned end to end) <span>CData</span></a>
+    <a href="https://docs.cli.cdata.com/overview">CData CLI documentation <span>CData</span></a>
     <a href="https://cdn.cdata.com/help/BBK/ado/pg_oauthcustomappcreate.htm">Creating a custom OAuth application <span>CData</span></a>
     <a href="https://www.cdata.com/blog/author/shawn-lindsey/">CData blog articles <span>CData</span></a>
     <a href="https://docs.cdp.coinbase.com/wallets/demos/demo-app-tutorial">Wallet demo app tutorial <span>Coinbase</span></a>
