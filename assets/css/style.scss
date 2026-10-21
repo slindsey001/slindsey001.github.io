@@ -1336,7 +1336,7 @@ body {
 .home-intro h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; margin-bottom: 12px !important; }
 .home-lede { max-width: 680px; font-size: 18px; line-height: 1.5; color: var(--ink); }
 
-.home-skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 40px 0 0; }
+.home-skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin: 28px 0 0; }
 .home-skills dt { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
 .home-skills dd { margin: 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
 
@@ -1516,6 +1516,15 @@ mark.ph { white-space: nowrap; }
 .markdown-body .proj-steps { margin: 0 0 20px; padding-left: 0; }
 .markdown-body .proj-steps li + li { margin-top: 6px; }
 
+/* =========================================
+   INTRO LINE
+   ========================================= */
+
+.markdown-body .intro-role { font-size: 20px; font-weight: 600; color: var(--ink); }
+.intro-at { color: var(--muted); font-weight: 400; }
+.intro-co { color: var(--accent); }
+.markdown-body .intro-focus { display: flex; flex-wrap: wrap; margin-top: 0; font-size: 18px; color: #3E4650; }
+.intro-focus span:not(:last-child)::after { content: ""; display: inline-block; width: 4px; height: 4px; margin: 0 12px 3px; border-radius: 50%; background: var(--accent); vertical-align: middle; }
 
 /* Placeholder metrics: replace every one before publishing, then delete this rule. */
 mark.ph { background: #FFE58A; color: #111111; padding: 0 3px; border-radius: 3px; }
