@@ -1481,5 +1481,41 @@ body {
 mark.ph { white-space: nowrap; }
 @media (max-width: 800px) { .home-row { row-gap: 2px; } }
 
+/* =========================================
+   LIST FIXES
+   The Primer theme styles every <dl>, <dt>, <dd>, and <ol> with
+   ".markdown-body ..." selectors, which beat plain class selectors.
+   These repeat the layout rules with ".markdown-body" so they win.
+   ========================================= */
+
+/* Space between the intro and the three skill panels: change this value */
+.markdown-body .home-skills { margin: 40px 0 0; padding: 0; }
+
+.markdown-body .proj-facts { margin: 24px 0 0; padding: 14px 18px; }
+.markdown-body .proj-checks,
+.markdown-body .proj-stats { margin: 0; padding-left: 0; }
+.markdown-body .proj-stats { margin-bottom: 16px; }
+
+.markdown-body .home-skills dt,
+.markdown-body .proj-facts dt,
+.markdown-body .proj-checks dt,
+.markdown-body .proj-stats dt { margin: 0; padding: 0; font-style: normal; }
+
+.markdown-body .home-skills dt,
+.markdown-body .proj-checks dt { font-weight: 600; }
+.markdown-body .home-skills dt { margin-bottom: 4px; }
+.markdown-body .proj-facts dt,
+.markdown-body .proj-stats dt { font-weight: 400; }
+
+.markdown-body .home-skills dd,
+.markdown-body .proj-facts dd,
+.markdown-body .proj-checks dd { margin: 2px 0 0; padding: 0; }
+.markdown-body .home-skills dd { margin-top: 0; }
+.markdown-body .proj-stats dd { margin: 0; padding: 0; }
+
+.markdown-body .proj-steps { margin: 0 0 20px; padding-left: 0; }
+.markdown-body .proj-steps li + li { margin-top: 6px; }
+
+
 /* Placeholder metrics: replace every one before publishing, then delete this rule. */
 mark.ph { background: #FFE58A; color: #111111; padding: 0 3px; border-radius: 3px; }
