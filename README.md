@@ -53,7 +53,7 @@
   <div class="home-rows">
     <div class="home-row"><span class="home-date">2024–now</span><span><strong>Technical Writer</strong>, CData Software</span><span class="home-note">CLI docs owner; connector, MCP, and auth docs; docs tooling</span></div>
     <div class="home-row"><span class="home-date">2023–2024</span><span><strong>Content Writer</strong>, Protocol Labs</span><span class="home-note">Technical content on Web3 infrastructure projects</span></div>
-    <div class="home-row"><span class="home-date">2021–2023</span><span><strong>Lead Editor</strong>, Coinbase</span><span class="home-note">Support docs, content strategy, audits, and a CMS migration of <mark class="ph">300+</mark> articles</span></div>
+    <div class="home-row"><span class="home-date">2021–2023</span><span><strong>Lead Editor</strong>, Coinbase</span><span class="home-note">Support docs, content strategy, audits, and a CMS migration of 300+ articles</span></div>
     <div class="home-row"><span class="home-date">2017–2021</span><span><strong>Information Developer</strong>, Rocket Software</span><span class="home-note">API guides, release notes, tutorials in Git, DITA, Markdown</span></div>
     <div class="home-row"><span class="home-date">2016–2017</span><span><strong>Information Developer</strong>, IBM</span><span class="home-note">DITA product docs and localization-ready content</span></div>
   </div>
