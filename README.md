@@ -14,7 +14,6 @@
 
 <section class="home-intro" aria-labelledby="hero-title">
   <h1 id="hero-title">Shawn Lindsey</h1>
-  <p class="intro-focus"><span>Developer documentation</span><span>Docs-as-code</span><span>Documentation tooling</span></p>
 
   <dl class="home-skills">
     <div>
