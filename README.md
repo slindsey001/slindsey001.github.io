@@ -71,7 +71,6 @@
     <a href="https://protocol.ai/blog/meet-zama-pioneering-the-future-of-encrypted-data/">Pioneering the future of encrypted data <span>Protocol Labs</span></a>
     <a href="https://www3.rocketsoftware.com/bluezone/help/v101/en/bzweb/default.htm">Rocket TE Web administrator guide <span>Rocket</span></a>
     <a href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/over_whats_new_in_fp9.html">What's new in Feature Pack 9 <span>IBM</span></a>
-    <a href="https://help.hcltechsw.com/domino/9.0.1/admin/admin/admn_inline_index_disabling.html">Disabling inline view indexing <span>IBM</span></a>
   </div>
 </section>
 
