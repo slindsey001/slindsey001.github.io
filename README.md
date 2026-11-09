@@ -22,7 +22,7 @@
     </div>
     <div>
       <dt>Developer docs, end to end</dt>
-      <dd>Owned the CData CLI documentation from first draft through its first release, publishing it on Mintlify and testing commands and code samples in Docker. Also documented MCP server setup across IDEs, OAuth configuration, and API guides at Rocket and Coinbase.</dd>
+      <dd>Owned the CData CLI documentation from first draft through its first release, publishing it on Mintlify. Also documented MCP server setup across IDEs, OAuth configuration, and API guides at Rocket and Coinbase.</dd>
     </div>
     <div>
       <dt>Docs-as-code and content architecture</dt>
